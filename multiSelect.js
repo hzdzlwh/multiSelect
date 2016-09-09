@@ -13,6 +13,7 @@
 		 };
 		 var options = $.extend(defaults, options);
 		 
+		 //this指代的是jquery选择器选中的元素，一般是一个jquery类型的集合
 		 return this.each(function (){
 		 
 		 //插件实现代码
