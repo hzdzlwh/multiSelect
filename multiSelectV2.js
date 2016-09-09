@@ -1,6 +1,7 @@
 (function($){
 
 	var MultiSelect = function(ele,opt){
+		/*this 指代新创建出来的对象*/
 		this.$element = ele;
 		this.defaults = {
 			width: '150',
@@ -110,6 +111,7 @@
 	*/
 	$.fn.extend({
 		MSDL : function(options){
+			/*this 指代jquery选取的元素*/
 			var multiSelect = new MultiSelect(this,options);
 			return multiSelect.select();
 		}
