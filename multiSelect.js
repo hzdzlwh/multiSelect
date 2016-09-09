@@ -21,7 +21,7 @@
 			var $ipt = $('<input type="text" readonly value="" class="select_rel" />');
 			$ipt.width(options.width - 8);//设定文本框宽度
 			
-			var $this = $(this);
+			var $this = $(this); //each 里面的this是原生的DOM，如果要用jquery方法，需要转化为jquery的元素
 			
 			$this.width(options.width);
 			$ipt.appendTo($this);
