@@ -14,7 +14,7 @@
 		 var options = $.extend(defaults, options);
 		 
 		 //this指代的是jquery选择器选中的元素，一般是一个jquery类型的集合
-		 return this.each(function (){
+		 return this.each(function (){    //return的作用是支持后续的链式操作，也可以不要return，就不支持链式操作了
 		 
 		 //插件实现代码
 			//创建 input输入框
