@@ -2,6 +2,7 @@
 
 	var MultiSelect = function(ele,opt){
 		/*this 指代新创建出来的对象*/
+		
 		this.$element = ele;
 		this.defaults = {
 			width: '150',
